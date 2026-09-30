@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>닥터배 뉴스 영상</title>
+<meta name="description" content="방송에 소개된 닥터배 교수의 '안 아픈 주사' 기술 뉴스 영상">
+<meta property="og:title" content="닥터배 뉴스 영상">
+<meta property="og:description" content="JTBC·MBC 뉴스에 소개된 닥터배 교수의 '안 아픈 주사' 기술">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#f6f4f1;--card:#fff;--ink:#1f1d1b;--sub:#6b665f;--line:#e6e1da;--accent:#8a6d3b;--btn:#1f1d1b;--btn-ink:#fff}
+  @media (prefers-color-scheme:dark){:root{--bg:#161514;--card:#211f1d;--ink:#f1ede7;--sub:#a79f94;--line:#35312d;--accent:#c9a86a;--btn:#f1ede7;--btn-ink:#161514}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:'Noto Sans KR',system-ui,sans-serif;line-height:1.6}
+  .wrap{max-width:760px;margin:0 auto;padding:48px 16px 64px}
+  header{text-align:center;margin-bottom:36px}
+  .brand{letter-spacing:.2em;font-size:13px;color:var(--accent);font-weight:700}
+  h1{font-size:28px;margin:8px 0 10px}
+  header p{color:var(--sub);margin:0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;margin-bottom:28px}
+  video{display:block;width:100%;background:#000;aspect-ratio:16/9}
+  .body{padding:18px 20px 20px}
+  .ch{display:inline-block;font-size:12px;font-weight:700;color:var(--accent);border:1px solid var(--accent);border-radius:99px;padding:1px 10px}
+  h2{font-size:19px;margin:8px 0 4px}
+  .body p{margin:0 0 14px;color:var(--sub);font-size:14px}
+  .dl{display:inline-block;background:var(--btn);color:var(--btn-ink);text-decoration:none;border-radius:10px;padding:9px 18px;font-size:14px;font-weight:500}
+  footer{text-align:center;color:var(--sub);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">DR.BAE</div>
+    <h1>방송에 소개된 닥터배</h1>
+    <p>뉴스에 소개된 닥터배 교수의 ‘안 아픈 주사’ 기술을 영상으로 만나보세요.</p>
+  </header>
+
+  <article class="card">
+    <video controls preload="metadata" playsinline src="https://github.com/baelab-create/drbae-media/releases/download/v1/drbae-JTBC-painless-injection.mp4"></video>
+    <div class="body">
+      <span class="ch">JTBC 뉴스</span>
+      <h2>안나경 앵커 – ‘안 아픈 주사’ 개발</h2>
+      <p>통증을 줄인 주사 기술 개발 소식</p>
+      <a class="dl" href="https://github.com/baelab-create/drbae-media/releases/download/v1/drbae-JTBC-painless-injection.mp4" download>영상 다운로드 (19MB)</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <video controls preload="metadata" playsinline src="https://github.com/baelab-create/drbae-media/releases/download/v1/drbae-MBC-1min.mp4"></video>
+    <div class="body">
+      <span class="ch">MBC 뉴스</span>
+      <h2>1분 설명</h2>
+      <p>닥터배 기술을 1분으로 정리한 뉴스 영상</p>
+      <a class="dl" href="https://github.com/baelab-create/drbae-media/releases/download/v1/drbae-MBC-1min.mp4" download>영상 다운로드 (14MB)</a>
+    </div>
+  </article>
+
+  <footer>© 닥터배 · 배랩</footer>
+</div>
+</body>
+</html>
